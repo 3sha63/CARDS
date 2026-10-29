@@ -29,8 +29,8 @@ jobs:
       - name: Prepare site files
         run: |
           mkdir public
-          cp cards.html public/index.html
-          cp cards.css public/cards.css
+          cp index.html public/index.html
+          cp index.css public/index.css
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
